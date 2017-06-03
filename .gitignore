@@ -1,0 +1,12 @@
+# Ignore toolcahin folders
+sdk/
+gcc/
+nrftools/
+
+# Ignore output folder
+build/
+
+# Ignore temporary download files
+gcc.tar.bz2
+nordictools.tar
+nordic_sdk.zip

@@ -1,0 +1,22 @@
+{
+    "version": "0.1.0",
+    "isShellCommand": true,
+    "args": [],
+    "showOutput": "always",
+    "echoCommand": true,
+    "suppressTaskName": true,
+    "windows": {
+        "command": "C:\\Windows\\Sysnative\\bash.exe",
+        "args": [
+            "-c", "make flash"
+        ]
+    },
+    "osx": {
+        "command": "make",
+        "args": [ "flash" ]
+    },
+    "linux": {
+        "command": "make",
+        "args": [ "flash" ]
+    }
+}
